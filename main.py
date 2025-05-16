@@ -5,6 +5,14 @@ from requests import post, Session , get
 import aiohttp
 from re import search
 from concurrent.futures import ThreadPoolExecutor
+import os
+import json
+
+with open("config.json", "r") as f:
+    config = json.load(f)
+
+TOKEN = os.getenv("DISCORD_TOKEN")
+
 
 ThreadPool = ThreadPoolExecutor(max_workers=int(100000000))
 header = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40"
