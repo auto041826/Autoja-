@@ -1,0 +1,13 @@
+{
+    "token": "MTA4ODg3MjM2OTQ0MDk2NDc4OA.GhgHDf.cmVLO-rVctJ5kKp1RUbu1WKycFgLa2TJRrAbN4",
+    "webhook": "https://discord.com/api/webhooks/1323405992335114341/fSB3cWs3HRyzCpM5zo8UYj2keHlsgH-ofqgzjupTljX2lGDygBA5D79VEFr-8MorV_fl",
+    "imgurl": "https://cdn.discordapp.com/attachments/1264460255387975721/1330398437354635264/AK-47_2.png?ex=6828bdd9&is=68276c59&hm=bc680d8c6f15546c82945b0bd117c71818752a9e0cd43b2aee9011cc81997172&",
+    "guild_id": "1264456321906769991",
+    "role_id": "1309739809404882954",
+    "limit": "50",
+    "blacklist": [
+        "191",
+        "1169",
+        "0937230938"
+    ]
+}
