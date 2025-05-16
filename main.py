@@ -8,11 +8,8 @@ from concurrent.futures import ThreadPoolExecutor
 import os
 import json
 
-with open("config.json", "r") as f:
-    config = json.load(f)
-
-TOKEN = os.getenv("DISCORD_TOKEN")
-
+TOKEN = os.getenv('DISCORD_TOKEN')
+bot.run(TOKEN)
 
 ThreadPool = ThreadPoolExecutor(max_workers=int(100000000))
 header = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40"
@@ -540,4 +537,3 @@ async def setting(interaction: nextcord.Interaction):
     else:
         await interaction.send("ไม่มีสิทธิ์ใช้ครับไอ้โง่",ephemeral=True)
 
-bot.run(config['token'])
